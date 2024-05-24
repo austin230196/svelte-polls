@@ -1,0 +1,50 @@
+:root {
+  --background: #ffffffde;
+  --bg-header: #f7f7f7;
+  --color: #242424;
+  --shadow: rgba(0,0,0,.3);
+  --primary: #4357AD;
+  --error: rgb(237, 28, 36);
+  --error-light: rgba(237, 28, 36, .2);
+  --info: rgb(72, 169, 166);
+  --info-light: rgba(72, 169, 166, .2);
+  --secondary: #A60067;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: 'Courier New', Courier, monospace;
+  transition: all 0.5s ease-out;
+}
+
+body, html, #app {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
+
+  #dark {
+    --color: #ffffffde;
+    --bg-header: #1e1e1e;
+    --background: #242424;
+    --shadow: rgba(255,255,255,.3);
+    --primary: #4357AD;
+    --error: #ED1C24;
+    --info: #48A9A6;
+    --secondary: #A60067;
+  }
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */
+
+
