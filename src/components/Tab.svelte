@@ -31,6 +31,7 @@
         right:0;
         justify-content: center;
         padding-top: 20px;
+        z-index: 100;
 
         > aside {
             // width: 100%;

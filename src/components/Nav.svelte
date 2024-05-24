@@ -39,6 +39,7 @@
         padding: 20px 40px;
         background-color: var(--bg-header);
         justify-content: space-between;
+        z-index: 120;
 
 
         > aside {
