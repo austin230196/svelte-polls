@@ -32,6 +32,7 @@
         justify-content: center;
         padding-top: 20px;
         z-index: 100;
+        background-color: var(--background);
 
         > aside {
             // width: 100%;
